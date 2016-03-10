@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 62.5%;
+	text-align: center;
+}
+/*hero区域*/
+.hero{
+	max-width: 100em;
+	height: 600px;
+	margin: 0 auto;
+	background: url(../img/hero_img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+}
+/*导航栏*/
+.header{
+	width: 80%;
+	margin: 0 auto;
+}
+.header img{
+	float: left;
+	width: 8em;
+	height: 2em;
+}
+.header ul{
+	float: right;	
+	list-style: none;
+}
+.header ul li{
+	float: left;
+	margin: 1em 0.5em;
+	padding: 0.5em 1em;
+	border: 1px solid transparent;
+	border-radius: 2px;
+}
+.header ul li:last-child{
+	border: 1px solid #ffffff;
+}
+/*清楚浮动*/
+.clear{
+	clear: both;
+}
+.clearfix{
+	*zoom:1;
+}
+ .clearfix:after{
+ 	content: "";
+ 	display: block;
+ 	visibility:hidden;
+ 	height: 0;
+	clear: both;
+} 
+/*大小标题:间距不完美，可再调整缩小些！*/
+.hero h1{
+	/*margin: 0 auto;*/
+	font-weight: bold;
+	font-size: 4em;
+	padding: 1em 0 0.5em 0;
+}
+.hero h2{
+	font-size: 2em;
+	color: #d9dada;
+}
+/*搜索表单*/
+.form{
+	padding: 2em 0 4em 0;
+}
+.form form input[type="text"]{
+	width: 18em;
+	border: 0;
+	padding: 1em;
+	border-radius: 2px 0 0 2px;
+	background: #EFEFEF;
+	opacity: 0.3;
+}
+.form form input[type="button"]{
+	width: 6em;
+	border: 0;
+	padding: 1em;
+	border-radius: 0 2px 2px 0;
+	background-color: #6cdcac;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+/*数字区域*/
+.numbers{
+	width: 80%;
+	margin: 0 auto;
+}
+.numbers ul{
+	list-style: none;
+	position: relative;
+	top: -7em;
+	background: #efefef;
+	padding-left: 0px;
+}
+.numbers li{
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	border-top: 1px solid #D9DADA;
+	border-left: 1px solid #D9DADA;
+	border-bottom: 1px solid #D9DADA;
+}
+.numbers li:last-child{
+	border-right: 1px solid #D9DADA;
+}
+.numbers h2{
+	font-size: 3em;
+	padding: 1em 0;
+}
+.numbers h3{
+	padding: 0 0 2em 0;
+}
+/*how to work区域*/
+.work ul{
+	list-style: none;
+}
+.work li{
+	width: 33.33%;
+	float: left;
+}
+.work h2{
+	font-size: 3em;
+	padding: 1em 0;
+}
+.work h2:after{
+	display: block;
+	content: "";
+	background-color: #D9DADA;
+	width: 2em;
+	height: 0.1em;
+	margin: 0.4em auto;
+}
+.work ul li:before{
+	display: block;
+	content: "";
+	background-color: #D9DADA;
+	width: 91.5%;
+	height: 1px;
+	position: relative;
+	top: 3.3em;
+	left: 49%;
+	margin: 0 2em;
+}
+.work ul li:last-child:before{
+	display: none;
+}
+.num{
+	font-size: 2em;
+	color: #9496A0;
+	border: 1px solid #D9DADA;
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	display: block;
+	margin: 1em auto 2em auto;
+	padding: 0.4em;
+	border-radius: 100%;
+	background-color: #efefef;
+}
+/*控制图标大小
+.work i{
+	font-size: 3.6em;
+}
+*/
+.fa-bell{
+	color: #ECA95A;
+}
+.fa-file-text{
+	color: #AC9CD2;
+}
+.fa-user{
+	color: #4D99CB;
+}
+.work h3{
+	font-size: 2em;
+	color: #60677A;
+	margin: 1em auto;
+}
+.work p{
+	width: 20em;
+	color: #9499A6;
+	font-size: 1.5em;
+	margin: 0 auto;
+	padding: 0.4em auto;
+}
+/*分割线*/
+.hr hr{
+	/*position: relative;*/
+	margin-bottom: 5em;
+	width: 100%;
+	color: #987cb9;
+	size: 1;
+}
+/*why choose us区域*/
+.why h2{
+	font-size: 3em;
+	margin-top: 2em;
+	padding: 1em 0;
+}
+.why h2:after{
+	display: block;
+	content: "";
+	background-color: #D9DADA;
+	width: 2em;
+	height: 0.1em;
+	margin: 0.4em auto;
+}
+.why ul{
+	list-style: none;
+	margin-left: 5em;
+}
+.why li{
+	width: 50%;
+	float: left;
+	margin: 2em auto;
+}
+.del i{
+	float: left;
+	margin-left: 3.5em;
+}
+.desc{
+	width: 20em;
+	margin-left: 20em
+}
+.del h3{
+	float: left;
+	margin-left: 0em;
+	font-size: 2em;
+}
+.del p{
+	float: left;
+	margin-top: 2em;
+	margin-left: 0em;
+	text-align: left;
+	width: 20em;
+}
+/*图标颜色*/
+.fa-bars{
+	color: #66BE93;	
+}
+.fa-car{
+	color: #01B4EA;	
+}
+.fa-bus{
+	color: #ECA95A;	
+}
+.fa-rocket{
+	color: #AF7AC4;	
+}
+.fa-plane{
+	color: #F26D7E;	
+}
+.fa-star{
+	color: #ED7F5B;	
+}
+/*talk区域*/
+.talk-area {
+	margin: 0 auto;
+	width: 550px;
+	height: 60px;
+}
+.talk-area span{
+	font-size: 25px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0 10px;
+	border-top: 1px solid #D9DADA;
+	border-left: 1px solid #D9DADA;
+	border-bottom: 1px solid #D9DADA;
+	border-right: 1px solid #D9DADA;
+}
+.talk-area span:first-child{
+	background: #D9DADA;
+}
+/* .talk-area li{
+	text-align: center;
+	width: 200px;
+	list-style: none;
+	float: left;
+	box-sizing: border-box;
+	border-top: 1px solid #D9DADA;
+	border-left: 1px solid #D9DADA;
+	border-bottom: 1px solid #D9DADA;
+	border-right: 1px solid #D9DADA;
+} */
+.talk-p{
+	width: 70%;
+	margin: 30px auto;
+	font-size: 15px;
+}
+.talk-people{
+	padding: 5px 0;
+}
+.footer ul{
+	list-style: none;
+}
+.footer ul li{
+	float: left;
+	padding: 5px 10px;
+}
