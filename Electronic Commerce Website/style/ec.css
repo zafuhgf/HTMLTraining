@@ -1,3 +1,4 @@
+/*样式重置*/
 body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select{padding: 0;	margin: 0; font-family: arial;}
 li{list-style: none;}
 img{border: none;}
@@ -26,7 +27,7 @@ body{background: #fff url(../images/body_bg.png) repeat-x;}
 .top_bar img { float:left; position:relative; top:10px; }
 
 /*header区域*/
-#header{width: 960px; margin: 0 auto; height: 100px; background: url(); position: relative;}
+#header{width: 960px; margin: 0 auto; height: 100px; background: url(); position: relative;background: url(../images/header_bg.png) no-repeat center 0;}
 #shopping {width: 288px; height: 100px; background: url(../images/ico.png) no-repeat 0 7px;position: relative;}
 #shopping p{color: #fff; font-size: 20px; font-weight: bold;position: absolute; top: 28px; left: 85px;}
 #shopping a{color: #ffc200; font-weight: bold; position: absolute; top: 63px; left: 104px; text-align: center; width: 114px; height: 23px; line-height: 22px; background: url(../images/ico.png) no-repeat 0 -93px;}
@@ -34,6 +35,6 @@ body{background: #fff url(../images/body_bg.png) repeat-x;}
 
 #header h1{width: 238px; margin: 0 auto; position: absolute; top: 0; left: 50%; margin-left: -119px;}
 
-#header .search{}
-#header .text{}
-#header .btn{}
+#header .search{width:292px; height: 31px; position: absolute; top: 33px; right: 0; background: url(../images/ico.png) no-repeat 0 -116px;}
+.search .text{width: 210px;height: 30px; line-height: 30px;background: none; border: none; float: left; margin-left: 20px; font-weight: bold; font-size: 13px; outline: none; }
+.search .btn{width: 42px; height: 30px; float: right; border: none; background: none;}
