@@ -35,6 +35,35 @@ body{background: #fff url(../images/body_bg.png) repeat-x;}
 
 #header h1{width: 238px; margin: 0 auto; position: absolute; top: 0; left: 50%; margin-left: -119px;}
 
-#header .search{width:292px; height: 31px; position: absolute; top: 33px; right: 0; background: url(../images/ico.png) no-repeat 0 -116px;}
+/*.search选择器复用*/
+.search{width:292px; height: 31px; background: url(../images/ico.png) no-repeat 0 -116px;}
+
+#header .search{position: absolute; top: 33px; right: 0;}
 .search .text{width: 210px;height: 30px; line-height: 30px;background: none; border: none; float: left; margin-left: 20px; font-weight: bold; font-size: 13px; outline: none; }
 .search .btn{width: 42px; height: 30px; float: right; border: none; background: none;}
+
+/*nav区域*/
+#nav{width: 960px; height: 43px; margin: 0 auto;}
+#nav li{float: left; padding-top: 7px; margin-right: 2px;}
+#nav a,#nav strong,#nav span{float: left; height: 29px; line-height: 28px;}
+#nav a{color: #fff;font-size: 15px;}
+#nav strong{font-weight: normal;}
+#nav span{padding: 0 16px;}
+
+#nav .active a,#nav a:hover{background: url(../images/nav_bg.png) repeat-x 0 -29px;}
+#nav .active strong,#nav a:hover strong{background: url(../images/nav_bg.png) no-repeat 0 0;}
+#nav .active span,#nav a:hover span{background: url(../images/nav_bg.png) no-repeat right -58px;}
+
+/*content背景区域*/
+#content{width: 1000px; background: url(../images/content_bg.png) repeat-y -2000px 0; margin: 24px auto 0;}
+#content .content_top{width: 1000px; background: url(../images/content_bg.png) no-repeat; }
+#content .content_bottom{width: 1000px; background: url(../images/content_bg.png) no-repeat -1000px bottom;}
+
+/*banner ad区域*/
+#ad{width: 940px; height: 300px; position: relative; margin: 0 auto; top: 10px;}
+#ad a, #ad h2, #ad p ,#ad .bg{position: absolute;}
+/*#ad a{width:940px; height: 300px; margin: 0 auto; top: 10px;}*/
+#ad .text{}
+.text h2{color: #ffc600; font-size: 25px; left: 0; bottom: 10px; z-index: 3; text-align: center; width: 268px; }
+.text p{color: #ffcccc; font-size: 13px; left: 268px; bottom: 7px; z-index: 3; width: 630px; line-height: 16px;}
+#ad .bg{width: 940px; height: 52px; bottom: 0; left: 0; background: #000; filter: alpha(opacity: 80); opacity: 0.8; z-index: 1;}
