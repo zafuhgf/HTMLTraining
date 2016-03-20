@@ -102,7 +102,9 @@ body{background: #fff url(../images/body_bg.png) repeat-x;}
 .module_list .space2{height: 40px; padding-top: 8px; }
 .module_list .space3{height: 40px; padding-top: 8px; }
 .module_list .space4{height: 38px; padding-top: 8px; }
-
+/*payment*/
+#payment{text-align: center; }
+#payment a{display: block; margin-bottom: 10px;}
 
 
 
