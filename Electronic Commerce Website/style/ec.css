@@ -137,5 +137,23 @@ body{background: #fff url(../images/body_bg.png) repeat-x;}
 .page a:hover{background-color: #b20e00; color: #fff; text-decoration: none; }
 .page .active, .page .active:hover{background-color: #b20e00; color: #fff; }
 .page span{font-family: "宋体"; }
+/*FEATURED PRODUCTS*/
+.scroll{}
+.scroll .title{font-size: 18px; color: #666666; font-weight: normal; }
+.scroll_center{background: url(../images/scroll_bg.png) repeat-x 0 -396px; height: 198px; position: relative; }
+.scroll_left{background: url(../images/scroll_bg.png) no-repeat 0 -198px; height: 198px; }
+.scroll_right{background: url(../images/scroll_bg.png) no-repeat right 0; height: 198px;  }
+.scroll_prev, .scroll_next{position: absolute; width: 35px; height: 42px; top: 70px; text-indent: -3000px; }
+.scroll_prev{background: url(../images/ico.png) no-repeat 0 -400px; left: 0;}
+.scroll_next{background: url(../images/ico.png) no-repeat -35px -400px; right: 0;}
+.scroll_pic{height: 150px; width: 600px; margin: 0 auto; position: relative; top: 30px; }
+.scroll_pic ul{position: absolute; left: 0; top: 0; }
+.scroll_pic li{float: left; width: 200px; }
+.scroll_pic .product_img{width: 147px; margin: 0 auto 12px; }
+.scroll_pic .product_img a{width: 145px; height: 100px; display: block; border: 1px solid #c0c0c0; }
+.scroll_pic p{text-align: center; font-size: 12px; color: #660000; width: 147px; margin: 0 auto; }
+
+
+
 
 
