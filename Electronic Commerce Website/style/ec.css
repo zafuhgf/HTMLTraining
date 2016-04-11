@@ -152,8 +152,23 @@ body{background: #fff url(../images/body_bg.png) repeat-x;}
 .scroll_pic .product_img{width: 147px; margin: 0 auto 12px; }
 .scroll_pic .product_img a{width: 145px; height: 100px; display: block; border: 1px solid #c0c0c0; }
 .scroll_pic p{text-align: center; font-size: 12px; color: #660000; width: 147px; margin: 0 auto; }
-
-
-
+/*footer*/
+#footer{background: url(../images/footer_bg.png) repeat-x; height: 302px; }
+/*footer_info*/
+#footer .footer_info{margin: 0 auto; height: 62px; width: 940px; position: relative; }
+.footer_info p{font-size: 14px; font-weight: bold; color: #cbcbcb; float: left; line-height: 62px; }
+.footer_info .icon1{background: url(../images/ico.png) no-repeat 0 -443px; text-indent: 60px; margin-right: 50px; }
+.footer_info .icon2{background: url(../images/ico.png) no-repeat 0 -503px; text-indent: 50px; }
+#footer .search{position: absolute; left: 660px; top: 16px; }
+/*footer_link*/
+#footer .footer_link{width: 940px; margin: 0 auto; margin-top: 20px; }
+.footer_link dl{float: left; width: 188px; }
+.footer_link dt{font-size: 15px; font-weight: bold; color: #fff; line-height: 50px; }
+.footer_link dd{line-height: 20px; }
+.footer_link dd a{font-size: 13px; color: #cfcfcf; }
+.footer_link dd a:hover{text-decoration: none; }
+.footer_link span{color: #ffcc00; }
+.footer_link .pos{position: relative; left: -20px; }
+.footer_link .space{margin-top: 20px; }
 
 
